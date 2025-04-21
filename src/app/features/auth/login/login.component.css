@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff3d3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .logo {
+    color: #1e1eff;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+  
+  .logo .ai {
+    color: #06010a;
+  }
+  
+  .welcome-text {
+    font-size: 0.9rem;
+    color: #0e0d0d;
+    margin: 0.5rem 0 2rem;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  
+  .login-card {
+    background-color: #111;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 320px;
+    text-align: left;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .tabs button {
+    background: transparent;
+    border: none;
+    color: #aaa;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    flex: 1;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tabs button:hover {
+    color: white;
+    background-color: #333;
+  }
+  
+  .tabs .active {
+    color: white;
+    border-color: white;
+  }
+  
+  .role-section label {
+    color: #0f0f0f;
+    font-size: 0.9rem;
+  }
+  
+  .roles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .role {
+    flex: 1;
+    margin: 0 0.2rem;
+    padding: 0.6rem;
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: 0.3s ease;
+    font-size: larger;
+  }
+  
+  .role:hover {
+    background-color: #333;
+    color: #7a1eff;
+    border-color: #7a1eff;
+  }
+  
+  .role.selected {
+    background-color: #7a1eff;
+    color: white;
+    border: 1px solid #7a1eff;
+    height: 150px;
+    width: 50px;
+  }
+  .role.selected:hover {
+    background-color: #121213;
+    color: white;
+    border-color: #5d1eff;
+  }
+  .continue-btn {
+    width: 100%;
+    background-color: #5d1eff;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .continue-btn:hover {
+    background-color: #4d1acc;
+    transform: scale(1.05);
+  }
+  
+  .bottom-text {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #aaa;
+  }
+  
+  .bottom-text a {
+    color: #cc66ff;
+    text-decoration: none;
+  }
+  
+  .footer {
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #cc66ff;
+    text-decoration: none;
+  }
